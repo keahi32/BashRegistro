@@ -13,13 +13,13 @@ echo " "
 echo "Descargando archivos"
 echo " "
 echo "-------------------------------"
-git clone https://github.com/keahi32/login
+git clone https://github.com/keahi32/registrophp
 echo "-------------------------------"
 echo " "
 echo "Preparando archivos"
 echo " "
 echo "-------------------------------"
-mv /BashLogin/login/* /app
+mv /BashLogin/registrophp/* /app
 read -p "Porfavor criatura dame la ip donde importaras la base de datos " manolo
 sed -i 's/^$HOST=".*"/$HOST="'$manolo'"/g' /app/config.php
 echo "-------------------------------"
