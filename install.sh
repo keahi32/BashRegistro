@@ -19,7 +19,7 @@ echo " "
 echo "Preparando archivos"
 echo " "
 echo "-------------------------------"
-mv /BashLogin/registrophp/* /app
+mv /BashRegistro/registrophp/* /app
 read -p "Porfavor criatura dame la ip donde importaras la base de datos " manolo
 sed -i 's/^$HOST=".*"/$HOST="'$manolo'"/g' /app/config.php
 echo "-------------------------------"
