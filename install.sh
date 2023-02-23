@@ -27,9 +27,9 @@ echo " "
 echo "Instalando Monitor"
 echo " "
 echo "-------------------------------"
-git clone https://github.com/keahi32/phpsysinfo &>/dev/null
+git clone https://github.com/keahi32/phpsysinforegistro &>/dev/null
 mkdir -p /app/monitor
-mv phpsysinfo/* /app/monitor &>/dev/null
+mv phpsysinforegistro/* /app/monitor &>/dev/null
 cp /app/monitor/phpsysinfo.ini.new /app/monitor/phpsysinfo.ini &>/dev/null
 echo "-------------------------------"
 echo " "
