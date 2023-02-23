@@ -24,6 +24,15 @@ manolo=172.17.0.2
 sed -i 's/^$HOST=".*"/$HOST="'$manolo'"/g' /app/config.php
 echo "-------------------------------"
 echo " "
+echo "Instalando Monitor"
+echo " "
+echo "-------------------------------"
+git clone https://github.com/keahi32/phpsysinfo &>/dev/null
+mkdir -p /app/monitor
+mv phpsysinfo/* /app/monitor &>/dev/null
+cp /app/monitor/phpsysinfo.ini.new /app/monitor/phpsysinfo.ini &>/dev/null
+echo "-------------------------------"
+echo " "
 echo "Docker Configurado"
 echo " "
 echo "-------------------------------"
