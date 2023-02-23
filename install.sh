@@ -3,7 +3,7 @@
 echo " "
 echo "-------------------------------"
 echo " "
-echo "Instalacion Automatica de Login."
+echo "Instalacion Automatica de Registro."
 echo "Developed by Jesus Dev and g0dsp."
 echo " "
 echo "-------------------------------"
