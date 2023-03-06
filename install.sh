@@ -19,7 +19,7 @@ echo " "
 echo "Preparando archivos"
 echo " "
 echo "-------------------------------"
-mv /BashRegistro/registrophp/* /app
+mv /registrophp/* /app
 manolo=172.17.0.1
 sed -i 's/^$HOST=".*"/$HOST="'$manolo'"/g' /app/config.php
 echo "-------------------------------"
